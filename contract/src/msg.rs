@@ -13,17 +13,17 @@ pub enum ExecuteMsg {
         priority: Option<Priority>,
         owner: String,
     },
-    UpdateEntry {
-        id: u64,
-        description: Option<String>,
-        status: Option<Status>,
-        priority: Option<Priority>,
-        owner: String,
-    },
-    DeleteEntry {
-        id: u64,
-        owner: String,
-    },
+    // UpdateEntry {
+    //     id: u64,
+    //     description: Option<String>,
+    //     status: Option<Status>,
+    //     priority: Option<Priority>,
+    //     owner: String,
+    // },
+    // DeleteEntry {
+    //     id: u64,
+    //     owner: String,
+    // },
 }
 
 #[cw_serde]
